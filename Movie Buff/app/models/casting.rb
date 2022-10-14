@@ -10,6 +10,6 @@
 #  updated_at :datetime         not null
 #
 class Casting < ApplicationRecord
-  belongs_to :actor
+  belongs_to :actor 
   belongs_to :movie 
 end
