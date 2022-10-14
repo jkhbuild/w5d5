@@ -14,7 +14,7 @@
 class Movie < ApplicationRecord
   validates :title, :yr, :score, :votes, presence: true
   
-  belongs_to :director,
+  belongs_to :director, 
     class_name: :Actor,
     foreign_key: :director_id,
     primary_key: :id
